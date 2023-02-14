@@ -1,8 +1,13 @@
-import './App.css'
+import "./App.css";
+import Header from "./components/Header";
 
 export default function App() {
-
   return (
-    <h1>DSCarrosTop</h1>
-  )
+    <>
+      <Header />
+      <main>
+        <h2>Venha nos visitar</h2>
+      </main>
+    </>
+  );
 }
