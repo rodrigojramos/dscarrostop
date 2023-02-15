@@ -1,5 +1,6 @@
 import "./App.css";
 import CardCar from "./components/CardCar";
+import CardComments from "./components/CardComments";
 import Header from "./components/Header";
 
 export default function App() {
@@ -7,10 +8,8 @@ export default function App() {
     <>
       <Header />
       <main>
-      <CardCar />
-      <div>
-        <h2>Coments</h2>
-      </div>
+        <CardCar />
+        <CardComments />
       </main>
     </>
   );

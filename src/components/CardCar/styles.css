@@ -15,7 +15,7 @@
 .dsct-card-car {
   min-width: 280px;
   min-height: 248px;
-  border: 1px solid #3c9af0;
+  border: 1px solid var(--dsct-color-border-primary);
   border-radius: 10px;
   padding: 10px;
   display: flex;

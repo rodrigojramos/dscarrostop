@@ -1,0 +1,35 @@
+.dsct-container-card-comments {
+  background-color: var(--dsct-color-bg-secondary);
+  padding: 25px 20px 0 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dsct-container-card-comments h2 {
+  font-size: 20px;
+  color: var(--dsct-color-font-secondary);
+  margin-bottom: 25px;
+}
+
+.dsct-card-comments {
+  width: 100%;
+  max-width: 960px;
+  background-color: var(--dsct-color-bg-primary);
+  border: 1px solid var(--dsct-color-border-primary);
+  border-radius: 12px;
+  padding: 25px 20px;
+  margin-bottom: 25px;
+}
+
+.dsct-card-comments p {
+  font-size: 16px;
+  color: var(--dsct-color-font-tertiary);
+}
+
+@media (min-width: 768px) {
+  .dsct-container-card-comments h2 {
+    font-size: 32px;
+  }
+}

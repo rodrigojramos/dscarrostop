@@ -8,6 +8,8 @@
   --dsct-color-font-primary: #fff;
   --dsct-color-font-secondary: #5E5E5E;
   --dsct-color-font-tertiary: #3C9AF0;
+
+  --dsct-color-border-primary: #3C9AF0;
 }
 
 * {
@@ -27,7 +29,4 @@
   body {
     background-color: var(--dsc-color-bg-primary);
   }
-  
-  main {
-    padding: 0 20px;
-  }
+
